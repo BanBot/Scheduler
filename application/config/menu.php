@@ -12,6 +12,11 @@ $arMainMenu = array(
         'SHOW' => false,
     ),
     array(
+        'TEXT' => 'Таблицы',
+        'LINK' => URL::base().'table/',
+        'SHOW' => true,
+    ),
+    array(
         'TEXT'  => 'Агенты',
         'LINK'  => URL::base().'user/',
         'SHOW'  => false,
